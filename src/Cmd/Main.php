@@ -49,7 +49,7 @@ class Main extends PluginBase implements Listener {
                 case 0:
        
 					
-                $eff = new EffectInstance(Effect::getEffect(Effect::NIGHT_VISION), 100 * 99999, 100, true);
+                $eff = new EffectInstance(Effect::getEffect(Effect::NIGHT_VISION), 100 * 99999, 100, false);
                 $sender->addEffect($eff);
                 $sender->sendMessage("§a§lNightvision: On");
                 break;
